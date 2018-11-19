@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+import os
+from cp import cp
+
+dst = os.path.join(os.environ["HOME"], ".cp_test")
+cp(__file__, dst)
+os.unlink(dst)

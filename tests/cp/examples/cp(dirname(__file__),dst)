@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+import os
+import shutil
+from cp import cp
+
+dst = os.path.join(os.environ["HOME"], ".cp_test")
+cp(os.path.dirname(__file__), dst)
+shutil.rmtree(dst)
