@@ -9,6 +9,9 @@ def _cp_file(source, target):
     if (os.path.exists(target) or os.path.lexists(target)):
         if os.path.isfile(source) != os.path.isfile(target):
             os.unlink(target)
+    dirname = os.path.dirname(target)
+    if dirname and not os.path.exists(dirname):
+        os.makedirs(dirname)
     shutil.copy(source, target)
 
 
