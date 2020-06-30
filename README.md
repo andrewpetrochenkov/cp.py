@@ -1,21 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/cp.svg?longCache=True)](https://pypi.org/project/cp/)
-[![](https://img.shields.io/pypi/v/cp.svg?maxAge=3600)](https://pypi.org/project/cp/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/cp.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/cp.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/cp.svg?maxAge=3600)](https://pypi.org/project/cp/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/cp.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/cp.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install cp
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`cp.cp(source, target, force=True)` |Copy the directory/file src to the directory/file target
 
 #### Examples
 ```python
@@ -27,5 +22,5 @@ function|`__doc__`
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

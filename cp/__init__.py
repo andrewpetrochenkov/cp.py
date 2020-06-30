@@ -1,8 +1,9 @@
-#!/usr/bin/env python
+__all__ = ['cp']
+
+
 from distutils import dir_util
 import os
 import shutil
-import public
 
 
 def _cp_file(source, target):
@@ -35,7 +36,6 @@ def _copy(source, target):
         _cp_dir(source, target)
 
 
-@public.add
 def cp(source, target, force=True):
     """Copy the directory/file src to the directory/file target"""
     if (os.path.exists(target) and not force) or source == target:
